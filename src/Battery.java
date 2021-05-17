@@ -1,3 +1,17 @@
 public class Battery {
-    //TODO has 2 battery (charching Satus)
+
+    private double voltage;
+
+    public Battery(double voltage) {
+        this.voltage = voltage;
+    }
+
+    public double getVoltage() {
+        return voltage;
+    }
+
+    public void setVoltage(double voltage) {
+        this.voltage = voltage;
+    }
+
 }
